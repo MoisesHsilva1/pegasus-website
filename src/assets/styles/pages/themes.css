@@ -1,8 +1,8 @@
 .themes-editorial { width: min(calc(100% - 3rem), var(--content-max)); margin-inline: auto; padding-block: clamp(4rem, 9vw, 8rem); }
-.themes-editorial__header { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(16rem, .8fr); align-items: end; gap: 3rem; margin-bottom: 4rem; }
-.themes-editorial__header h1 { max-width: 9ch; margin-bottom: 0; }
+.themes-editorial__header { display: flex; justify-content: flex-start; margin-bottom: 4rem; text-align: left; }
+.themes-editorial__header h1 { max-width: 12ch; margin: 0; }
 .themes-editorial__layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(15rem, .32fr); gap: 2rem; }
 .themes-editorial .listing-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); align-content: start; }
 .themes-editorial__aside { align-self: start; }
 .themes-editorial .empty-note { grid-column: 1 / -1; }
-@media (max-width: 800px) { .themes-editorial__header, .themes-editorial__layout { grid-template-columns: 1fr; } .themes-editorial .listing-grid { grid-template-columns: 1fr; } }
+@media (max-width: 800px) { .themes-editorial__layout { grid-template-columns: 1fr; } .themes-editorial .listing-grid { grid-template-columns: 1fr; } }
