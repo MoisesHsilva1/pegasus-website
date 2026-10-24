@@ -1,11 +1,7 @@
 <header class="site-header">
   <a class="brand" href="/" aria-label="Pegasus home">
-    <svg class="brand__mark" viewBox="0 0 64 64" role="img" aria-labelledby="horse-mark-title">
-      <title id="horse-mark-title">Pegasus horse mark</title>
-      <path d="M10 45h9c1-8 5-14 12-19 5-3 10-3 14 0l-2 6c-4-1-7 0-9 3l5 3 1 7h8l5-5 4 3-7 8H32c-4 3-10 4-16 2H10Z" />
-      <path d="M40 20c-1-5 1-9 5-12l3 8-4 6M22 31l-8-5 5-5 8 6M35 39h5" />
-    </svg>
-    <span class="brand__name">Pegasus</span>
+    <img class="brand__mark brand__mark--light" src="/assets/images/pegasus-mark-light.svg" alt="Pegasus pixel horse mark">
+    <img class="brand__mark brand__mark--dark" src="/assets/images/pegasus-mark-dark.svg" alt="" aria-hidden="true">
   </a>
   <nav class="site-nav" aria-label="Primary navigation">
     {% for item in site.navigation %}<a class="site-nav__link" href="{{ item.url }}">{{ item.label }}</a>{% endfor %}
