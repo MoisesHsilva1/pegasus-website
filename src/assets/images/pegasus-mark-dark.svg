@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" shape-rendering="crispEdges">
+  <title>Pegasus pixel horse mark</title>
+  <g fill="#A22C29">
+    <path d="M25 21h4v-5h4v-5h4v-5h4v6h3v5h-4v5h5v4h-6v4h-5v4h-5v-5h4v-4h-4Z"/>
+    <path d="M29 29h5v-4h5v-4h5v5h3v5h-5v4h-5v4h-5v4h-5v-5h4v-4h-4Z"/>
+  </g>
+  <g fill="#D6D5C9">
+    <path d="M5 21h4v-5h3v-4h5v2h4v4h4v4h-4v4h-4v5h-4v3h-5v-3H5v-3H2v-4h3Z"/>
+    <path d="M17 22h8v4h4v5h5v5h5v4h-8v-2h-8v-3h-6v-5h-4v-4h4Z"/>
+    <path d="M20 34h5v5h-2v7h-5v-4h2ZM29 36h5v4h-2v6h-5v-4h2ZM37 38h5v3h3v5h-5v-3h-3Z"/>
+    <path d="M8 17h4v3H8ZM15 13h3v3h-3ZM20 19h4v3h-4ZM10 25h4v3h-4ZM25 31h4v3h-4Z" fill="#0A100D"/>
+  </g>
+</svg>
