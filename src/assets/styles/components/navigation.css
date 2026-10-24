@@ -4,6 +4,7 @@
 .site-nav__link { padding: .35rem .5rem; border: 1px solid transparent; text-decoration: none; }
 .site-nav__link:hover, .site-nav__link:focus-visible { color: var(--color-red); }
 .site-nav__link:hover { border-color: currentColor; background: var(--color-ash); color: var(--color-ink); }
-.header-link { font: .75rem "IBM Plex Mono", monospace; text-decoration: none; }
+.header-link { display: inline-flex; align-items: center; gap: .35rem; font: .75rem "IBM Plex Mono", monospace; text-decoration: none; }
+.github-icon { width: 1rem; height: 1rem; fill: currentColor; }
 .header-link:hover, .header-link:focus-visible { color: var(--color-red); }
 .site-shell--dark .brand__mark { fill: none; stroke: var(--color-bone); }
