@@ -16,7 +16,29 @@ Use Conventional Commits quando commits forem solicitados: `tipo: descrição` o
 
 ## Objetivo do produto
 
-Pegasus é um projeto de configuração e personalização de um ambiente Linux para desenvolvedores e entusiastas. O site deve explicar a proposta, orientar instalação, documentar configurações e apresentar temas verificáveis.
+Pegasus é um projeto open source de Developer Experience / Linux Customization que transforma uma instalação limpa do Fedora Workstation com GNOME em um ambiente de desenvolvimento moderno, personalizado, consistente e pronto para uso. O site deve explicar a proposta, orientar instalação, documentar configurações e apresentar temas verificáveis.
+
+O produto oferece uma experiência de configuração opinativa, automatizando progressivamente a instalação de ferramentas, a configuração do sistema e a personalização do ambiente gráfico. Pegasus não é uma distribuição Linux independente e não substitui o ambiente gráfico original do Fedora.
+
+Repositório oficial: https://github.com/MoisesHsilva1/pegasus
+
+### Proposta de valor e princípios
+
+- reduzir o trabalho repetitivo de configurar ferramentas, shell, desktop, atalhos e preferências;
+- priorizar uma experiência developer-first, acessível também a usuários com conhecimentos básicos de Linux;
+- oferecer defaults opinativos sem retirar do usuário o controle sobre o sistema;
+- permitir personalização, especialmente de temas, aparência e preferências;
+- produzir resultados consistentes em instalações compatíveis;
+- manter o desenvolvimento, as configurações e as decisões abertos à inspeção e contribuição.
+
+### Escopo funcional do produto
+
+- CLI para preparar o sistema, instalar componentes selecionados, aplicar configurações, informar progresso e explicar falhas;
+- base opinativa de ferramentas para terminal, shell, editores, controle de versão, utilitários e produtividade;
+- personalização do GNOME por meio de temas, ícones, fontes, wallpapers, atalhos e preferências suportadas;
+- capacidades progressivas de aplicar configurações, alterar temas, verificar dependências, diagnosticar problemas e atualizar componentes gerenciados.
+
+Não inventar comandos específicos da CLI, lista de ferramentas, requisitos, compatibilidade ou comportamento de manutenção enquanto esses detalhes não estiverem confirmados no repositório oficial.
 
 Não apresentar Pegasus como uma distribuição Linux independente. Não inventar recursos, requisitos, comandos, links de repositório, screenshots ou compatibilidade.
 
@@ -74,7 +96,7 @@ Não criar cores de marca arbitrárias. Ash Grey substitui o antigo verde/teal. 
 ### Marca
 
 - Header minimalista, mas com navegação visível para `Docs`, `Themes` e `Install`.
-- GitHub deve aparecer quando a URL oficial for confirmada; não inventar URL.
+- GitHub deve aparecer no header e no footer usando a URL oficial confirmada: `https://github.com/MoisesHsilva1/pegasus`.
 - O ícone é um cavalo original em linguagem pixel/line-art compatível com a UI, não um brasão complexo.
 - O ícone deve ser legível em tamanhos pequenos e possuir texto alternativo acessível quando usado como conteúdo.
 
@@ -86,7 +108,7 @@ Não criar cores de marca arbitrárias. Ash Grey substitui o antigo verde/teal. 
 - A primeira dobra deve ser centralizada, escura e minimalista, sem etiqueta ou anúncio acima do título.
 - O hero usa pixels decorativos nas bordas e dois CTAs; interações ficam restritas a hover/foco sem animação contínua.
 - O título da primeira dobra usa `Press Start 2P` apenas como tratamento pixel curto, com animação em `steps()` e fallback para `prefers-reduced-motion`.
-- O hero deve explicar Pegasus em poucos segundos e deixar claro que ele não é uma distribuição Linux.
+- O hero deve explicar em poucos segundos que Pegasus configura o Fedora Workstation com GNOME para um fluxo de desenvolvimento e deixar claro que ele não é uma distribuição Linux.
 - A linha divisória abaixo do header foi removida.
 - Docs e Install continuam claras, usando Bone e Ash Grey, para leitura prolongada.
 
@@ -198,6 +220,5 @@ Antes de declarar uma mudança concluída:
 
 ## Pendências conhecidas
 
-- URL oficial do GitHub ainda não foi informada.
 - Screenshots reais dos temas ainda não estão disponíveis.
 - O repositório Git local está incompleto; não presumir histórico ou base para diff.

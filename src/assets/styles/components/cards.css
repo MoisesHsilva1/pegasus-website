@@ -1,10 +1,10 @@
 .feature-grid, .listing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
-.window-card, .listing-card { border: var(--border-default); border-radius: var(--radius-md); background: var(--color-bone); padding: 1.5rem; box-shadow: 4px 4px 0 var(--color-ink); }
-.window-card { min-height: 18rem; }
-.window-card--green { background: var(--color-ash); }
+.window-card, .listing-card { border: var(--border-default); background: var(--color-bone); box-shadow: 4px 4px 0 var(--color-ink); }
+.window-card { min-height: 18rem; border-radius: var(--radius-sm); padding: 0 1.5rem 1.5rem; color: var(--color-ink); }
+.listing-card { border-radius: var(--radius-md); padding: 1.5rem; }
+.window-card--ash { background: var(--color-ash); }
 .window-card--red { background: var(--color-red); color: var(--color-bone); }
-.window-card__bar { display: flex; align-items: center; gap: .75rem; margin-bottom: 4rem; font-size: .7rem; }
-.window-card__bar .window-bar__dots { margin-right: auto; }
+.window-card > .window-bar { margin: 0 -1.5rem 3.5rem; }
 .window-card p { max-width: 26rem; }
 .window-card .text-link { display: inline-block; margin-top: 1.5rem; }
 .listing-card { display: block; min-height: 15rem; text-decoration: none; }
