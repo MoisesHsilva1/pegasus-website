@@ -1,0 +1,9 @@
+.site-shell { min-height: 100vh; overflow: hidden; }
+.site-header, .site-footer, .section-grid, .feature-section, .closing-cta, .listing-page, .reading-page { width: min(calc(100% - 3rem), var(--content-max)); margin-inline: auto; }
+.site-header { display: flex; align-items: center; justify-content: space-between; min-height: 6rem; }
+.site-shell--dark { background: var(--color-ink); color: var(--color-bone); }
+.site-shell--dark .site-header { border-color: var(--color-bone); }
+.site-shell--dark .site-footer { border-color: var(--color-bone); }
+.site-footer { display: flex; justify-content: space-between; gap: 1.5rem; padding: 2rem 0; border-top: var(--border-default); font-size: .8rem; }
+.site-footer__title { font-weight: 600; }
+.site-footer__links { display: flex; gap: 1.25rem; }

@@ -1,0 +1,7 @@
+---
+layout: layouts/base.njk
+title: Documentation
+description: Clear notes for configuring and understanding a Pegasus Linux environment.
+permalink: /docs/
+---
+<section class="listing-page"><header class="listing-page__header"><p class="eyebrow">Documentation</p><h1>Understand the parts you change.</h1><p class="lede">Short, practical notes for configuring a Linux environment without turning every choice into a ritual.</p></header><div class="listing-grid">{% for doc in collections.docs %}<a class="listing-card" href="{{ doc.url }}"><span class="listing-card__meta">{{ loop.index }}</span><h2>{{ doc.data.title }}</h2><p>{{ doc.data.summary }}</p><span class="text-link">Read note →</span></a>{% endfor %}</div></section>

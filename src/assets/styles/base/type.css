@@ -1,0 +1,14 @@
+body { font-family: "IBM Plex Sans", Arial, sans-serif; font-size: 1rem; line-height: 1.6; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { line-height: 1.05; letter-spacing: -.03em; }
+h1 { max-width: 10ch; font-size: clamp(3rem, 7vw, 6.5rem); }
+h2 { font-size: clamp(2.2rem, 5vw, 4.5rem); }
+h3 { font-size: 1.5rem; }
+em { color: var(--color-red); font-style: normal; }
+.eyebrow, .brand, .button, .text-link, .window-card__bar, .listing-card__meta, .terminal, .site-footer { font-family: "IBM Plex Mono", monospace; }
+.eyebrow { margin-bottom: 1rem; font-size: .75rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+.lede { max-width: 42rem; font-size: clamp(1.1rem, 2vw, 1.35rem); }
+.prose { max-width: 42rem; }
+.prose p, .prose li { font-size: 1.05rem; }
+.prose h2 { margin-top: 3rem; font-size: 2rem; }
+.prose a, .text-link { text-decoration-thickness: 2px; text-underline-offset: .2em; }

@@ -1,0 +1,9 @@
+.brand { display: inline-flex; align-items: center; gap: .65rem; font-size: 1rem; font-weight: 600; text-decoration: none; }
+.brand__mark { width: 2.25rem; height: 2.25rem; padding: .25rem; overflow: visible; fill: none; stroke: var(--color-ink); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.5; }
+.site-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 1.25rem; font: .75rem "IBM Plex Mono", monospace; }
+.site-nav__link { padding: .35rem .5rem; border: 1px solid transparent; text-decoration: none; }
+.site-nav__link:hover, .site-nav__link:focus-visible { color: var(--color-red); }
+.site-nav__link:hover { border-color: currentColor; background: var(--color-ash); color: var(--color-ink); }
+.header-link { font: .75rem "IBM Plex Mono", monospace; text-decoration: none; }
+.header-link:hover, .header-link:focus-visible { color: var(--color-red); }
+.site-shell--dark .brand__mark { fill: none; stroke: var(--color-bone); }

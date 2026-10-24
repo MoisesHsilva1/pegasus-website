@@ -1,0 +1,5 @@
+<a class="theme-card" href="{{ theme_item.url }}">
+  {% set window_label = theme_item.data.title | lower + " / " + theme_item.data.status %}{% include "components/window-bar.njk" %}
+  <div class="theme-card__preview theme-card__preview--{{ theme_item.data.status }}"><span class="theme-card__placeholder">Preview coming soon</span>{% set character = theme_item.data.character %}{% include "components/theme-character.njk" %}</div>
+  <div class="theme-card__body"><span class="listing-card__meta">{{ theme_item.data.status | upper }}</span><h2>{{ theme_item.data.title }}</h2><p>{{ theme_item.data.summary }}</p><span class="text-link">View theme →</span></div>
+</a>

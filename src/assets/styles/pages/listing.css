@@ -1,0 +1,4 @@
+.listing-page { padding-block: clamp(4rem, 10vw, 8rem); }
+.listing-page__header { margin-bottom: 4rem; }
+.listing-page__header h1 { max-width: 12ch; }
+.empty-note { display: flex; align-items: start; gap: .25rem; max-width: 38rem; margin-top: 2rem; padding: 1rem; border: var(--border-default); background: var(--surface-paper-soft); font: .8rem "IBM Plex Mono", monospace; }

@@ -1,0 +1,5 @@
+.terminal { align-self: center; border: 1px solid var(--color-bone); background: var(--color-ink); color: var(--color-bone); box-shadow: 4px 4px 0 var(--color-bone); }
+.terminal__bar { display: flex; align-items: center; gap: .75rem; padding: .75rem 1rem; border-bottom: 1px solid var(--color-bone); font-size: .7rem; }
+.terminal__bar .window-bar__dots { margin-right: auto; }
+.terminal pre { margin: 0; padding: 2rem; overflow-x: auto; font-size: clamp(.8rem, 2vw, 1rem); line-height: 1.7; }
+.terminal__prompt { color: var(--color-ash); }

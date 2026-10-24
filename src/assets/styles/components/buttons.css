@@ -1,0 +1,8 @@
+.button { display: inline-flex; align-items: center; gap: .75rem; min-height: 3rem; padding: .75rem 1rem; border: var(--border-default); border-radius: var(--radius-sm); font-size: .75rem; font-weight: 600; text-decoration: none; }
+.button:hover { transform: translate(-2px, -2px); box-shadow: 3px 3px 0 var(--color-ink); }
+.button--primary { border-color: var(--color-red); background: var(--color-red); color: var(--color-bone); }
+.button--outline { min-height: auto; padding: .5rem .75rem; }
+.button--paper { border-color: var(--color-bone); color: var(--color-bone); }
+.button--small { font-size: .7rem; }
+.text-link { font-size: .8rem; font-weight: 600; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .button { transition: none; } .button:hover { transform: none; box-shadow: none; } }

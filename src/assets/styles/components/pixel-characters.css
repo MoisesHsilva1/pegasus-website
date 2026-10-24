@@ -1,0 +1,6 @@
+.pixel-character { position: absolute; right: 1.25rem; bottom: 1rem; display: block; width: clamp(4rem, 10vw, 6rem); height: clamp(4rem, 10vw, 6rem); color: var(--color-ink); image-rendering: pixelated; }
+.pixel-character__frame { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.pixel-character__frame--hover { opacity: 0; }
+.theme-card:hover .pixel-character__frame--idle, .theme-card:focus-visible .pixel-character__frame--idle { opacity: 0; }
+.theme-card:hover .pixel-character__frame--hover, .theme-card:focus-visible .pixel-character__frame--hover { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .pixel-character__frame { transition: none; } }

@@ -1,0 +1,30 @@
+.feature-grid, .listing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.window-card, .listing-card { border: var(--border-default); border-radius: var(--radius-md); background: var(--color-bone); padding: 1.5rem; box-shadow: 4px 4px 0 var(--color-ink); }
+.window-card { min-height: 18rem; }
+.window-card--green { background: var(--color-ash); }
+.window-card--red { background: var(--color-red); color: var(--color-bone); }
+.window-card__bar { display: flex; align-items: center; gap: .75rem; margin-bottom: 4rem; font-size: .7rem; }
+.window-card__bar .window-bar__dots { margin-right: auto; }
+.window-card p { max-width: 26rem; }
+.window-card .text-link { display: inline-block; margin-top: 1.5rem; }
+.listing-card { display: block; min-height: 15rem; text-decoration: none; }
+.listing-card:hover { background: var(--color-ash); }
+.listing-card__meta { display: block; margin-bottom: 3rem; font-size: .7rem; }
+.listing-card h2 { margin-bottom: 1rem; font-size: 2rem; }
+.listing-card p { min-height: 3.2rem; }
+.theme-card { display: block; overflow: hidden; border: 1px solid var(--color-bone); border-radius: var(--radius-md); color: var(--color-bone); text-decoration: none; box-shadow: 4px 4px 0 var(--color-bone); }
+.theme-card:hover { border-color: var(--color-red); }
+.theme-card__chrome { display: flex; align-items: center; gap: .75rem; padding: .65rem .8rem; border-bottom: 1px solid var(--color-bone); background: var(--color-ink); color: var(--color-bone); font: .65rem "IBM Plex Mono", monospace; }
+.window-bar__dots { display: inline-flex; gap: .25rem; }
+.window-bar__dots i { display: block; width: .45rem; height: .45rem; border: 1px solid currentColor; border-radius: 50%; }
+.theme-card__preview { position: relative; display: grid; min-height: 14rem; place-items: center; padding: 1rem; overflow: hidden; background-color: var(--color-ash); color: var(--color-ink); font: .75rem "IBM Plex Mono", monospace; text-align: center; }
+.theme-card__preview::before { position: absolute; inset: 0; background-image: radial-gradient(currentColor .7px, transparent .7px); background-size: 6px 6px; content: ""; opacity: .14; }
+.theme-card__placeholder { position: relative; z-index: 1; max-width: 8rem; }
+.theme-card__preview--draft { background: var(--surface-paper-soft); }
+.theme-card__body { padding: 1.5rem; }
+.theme-card__body h2 { margin-bottom: .75rem; font-size: 2rem; }
+.theme-card__body p { min-height: 3.2rem; color: var(--color-ash); }
+.theme-card .listing-card__meta { margin-bottom: 1.5rem; color: var(--color-ash); }
+.listing-page--dark .listing-page__header { max-width: 54rem; }
+.listing-page--dark .empty-note { border-color: var(--color-bone); background: transparent; }
+@media (max-width: 800px) { .feature-grid, .listing-grid { grid-template-columns: 1fr; } .window-card { min-height: auto; } }
