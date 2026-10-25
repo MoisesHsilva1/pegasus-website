@@ -4,17 +4,6 @@ title: Install Pegasus
 summary: A simple path from Fedora Workstation to your developer setup.
 permalink: /install/
 ---
-Pegasus configures Fedora Workstation with GNOME for a ready-to-use development workflow. It is not a Linux distribution.
-
-## Before you start
-
-- Fedora Workstation 40 or newer
-- GNOME running on Wayland
-- A regular user with `sudo` access
-- An active internet connection
-
-## Install
-
 <div class="install-step-heading"><span class="install-step-heading__number" aria-hidden="true">01</span><div><p class="install-step-heading__label">Step 01 / Download</p><h3>Get the files</h3></div></div>
 
 Open a terminal and run:
@@ -64,9 +53,3 @@ You can also find **Pegasus Control Center** in GNOME Applications.
 ### Update or uninstall
 
 {% set command_id = "maintenance" %}{% set command_label = "Maintenance" %}{% set command_text = "pegasus update\npegasus uninstall" %}{% include "components/command-block.njk" %}
-
-## Optional integrations
-
-ASDControl, Google Chrome, Alacritty, Flameshot, and Ulauncher are optional. Pegasus configures them only when they are already installed.
-
-Pegasus is built for Fedora Workstation and inspired by [Omakub](https://omakub.org).
