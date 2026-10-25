@@ -1,6 +1,6 @@
 .site-shell { min-height: 100vh; overflow: hidden; }
 .site-header, .site-footer, .section-grid, .feature-section, .closing-cta, .listing-page, .reading-page { width: min(calc(100% - 3rem), var(--content-max)); margin-inline: auto; }
-.site-header { display: flex; align-items: center; justify-content: space-between; min-height: 6rem; }
+.site-header { display: flex; align-items: center; justify-content: space-between; min-width: 0; min-height: 6rem; }
 .site-shell--dark { background: var(--color-ink); color: var(--color-bone); }
 .site-shell--dark .site-header { border-color: var(--color-bone); }
 .site-shell--dark .site-footer { border-color: var(--color-bone); }

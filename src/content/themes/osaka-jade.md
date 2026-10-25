@@ -1,6 +1,7 @@
 ---
 layout: layouts/theme.njk
 title: Osaka Jade
+character: maker
 summary: A deep green desktop with jade highlights and a vivid red signal color.
 tags: themes
 status: source

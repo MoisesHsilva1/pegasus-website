@@ -1,6 +1,7 @@
 ---
 layout: layouts/theme.njk
 title: Kanagawa
+character: night
 summary: A muted, ink-inspired palette with warm highlights and a restrained blue accent.
 tags: themes
 status: source

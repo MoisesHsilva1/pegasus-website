@@ -1,6 +1,7 @@
 ---
 layout: layouts/theme.njk
 title: Ristretto
+character: orbit
 summary: A dark espresso palette with soft rose, green, and lilac accents.
 tags: themes
 status: source

@@ -1,6 +1,7 @@
 ---
 layout: layouts/theme.njk
 title: Matte Black
+character: night
 summary: A minimal dark foundation for a focused workspace with almost no visual noise.
 tags: themes
 status: source

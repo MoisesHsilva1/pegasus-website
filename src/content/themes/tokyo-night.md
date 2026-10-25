@@ -1,6 +1,7 @@
 ---
 layout: layouts/theme.njk
 title: Tokyo Night
+character: night
 summary: A nocturnal blue-purple palette with bright, readable syntax accents.
 tags: themes
 status: source

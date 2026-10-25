@@ -11,5 +11,9 @@ permalink: /themes/
   </header>
   <div class="themes-editorial__layout">
     <div class="listing-grid">{% for theme in collections.themes %}{% set theme_item = theme %}{% include "components/theme-card.njk" %}{% endfor %}</div>
+    <aside class="themes-editorial__aside" aria-label="Theme catalogue notes">
+      <div class="themes-editorial__aside-block"><p class="editorial-label">Visual index</p><p><strong>{{ collections.themes | length }} palettes</strong><br>Each entry pairs a real preview with its source metadata and seven-color palette.</p></div>
+      <div class="themes-editorial__aside-block"><p class="editorial-label">Read the card</p><p>Open a theme to inspect its palette, source repository, and available wallpaper asset.</p></div>
+    </aside>
   </div>
 </section>

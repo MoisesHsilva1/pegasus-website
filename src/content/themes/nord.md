@@ -1,6 +1,7 @@
 ---
 layout: layouts/theme.njk
 title: Nord
+character: scout
 summary: A cool blue-grey palette that keeps the desktop quiet and the hierarchy clear.
 tags: themes
 status: source

@@ -1,6 +1,7 @@
 ---
 layout: layouts/theme.njk
 title: Everforest
+character: maker
 summary: A warm, low-contrast green palette designed for long sessions.
 tags: themes
 status: source

@@ -1,6 +1,7 @@
 ---
 layout: layouts/theme.njk
 title: Catppuccin
+character: scout
 summary: A soft, pastel palette with a cool teal accent for a calm developer desktop.
 tags: themes
 status: source

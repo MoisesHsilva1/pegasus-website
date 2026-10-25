@@ -12,7 +12,7 @@
 .listing-card__meta { display: block; margin-bottom: 3rem; font-size: .7rem; }
 .listing-card h2 { margin-bottom: 1rem; font-size: 2rem; }
 .listing-card p { min-height: 3.2rem; }
-.theme-card { display: flex; flex-direction: column; min-height: 30rem; overflow: hidden; border: 1px solid var(--color-bone); border-radius: var(--radius-md); color: var(--color-bone); text-decoration: none; box-shadow: 4px 4px 0 var(--color-bone); }
+.theme-card { position: relative; display: flex; flex-direction: column; min-height: 30rem; overflow: hidden; border: 1px solid var(--color-bone); border-radius: var(--radius-md); color: var(--color-bone); text-decoration: none; box-shadow: 4px 4px 0 var(--color-bone); }
 .theme-card:hover, .theme-card:focus-visible { border-color: var(--color-red); box-shadow: 4px 4px 0 var(--color-bone); }
 .theme-card__chrome { display: flex; align-items: center; gap: .75rem; padding: .65rem .8rem; border-bottom: 1px solid var(--color-bone); background: var(--color-ink); color: var(--color-bone); font: .65rem "IBM Plex Mono", monospace; }
 .window-bar__dots { display: inline-flex; gap: .25rem; }

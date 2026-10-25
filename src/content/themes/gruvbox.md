@@ -1,6 +1,7 @@
 ---
 layout: layouts/theme.njk
 title: Gruvbox
+character: orbit
 summary: A familiar retro-warm palette with earthy contrast and bright terminal accents.
 tags: themes
 status: source

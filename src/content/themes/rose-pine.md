@@ -1,6 +1,7 @@
 ---
 layout: layouts/theme.njk
 title: Rose Pine
+character: scout
 summary: A soft, contemplative palette with warm paper tones and muted rose accents.
 tags: themes
 status: source
