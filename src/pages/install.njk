@@ -1,25 +1,55 @@
 ---
 layout: layouts/doc.njk
 title: Install Pegasus
-summary: Start with the requirements, understand the steps, and keep a path back when you need it.
+summary: A simple path from Fedora Workstation to your developer setup.
 permalink: /install/
 ---
-## Before you begin
+<div class="install-step-heading"><span class="install-step-heading__number" aria-hidden="true">01</span><div><p class="install-step-heading__label">Step 01 / Download</p><h3>Get the files</h3></div></div>
 
-The official installation steps are being documented alongside the project. This page will become the single source of truth for requirements, supported systems, and verified commands.
+Open a terminal and run:
 
-For now, use the checklist below to prepare a clean starting point:
+{% set command_id = "install-clone" %}{% set command_label = "1 / Download" %}{% set command_text = "git clone https://github.com/MoisesHsilva1/Pegasus.git ~/.local/share/pegasus\ncd ~/.local/share/pegasus" %}{% include "components/command-block.njk" %}
 
-- Confirm the target machine and its Linux base system.
-- Back up personal configuration before changing your desktop.
-- Read each configuration step before applying it.
-- Keep a note of changes so they can be reversed.
+<div class="install-step-heading"><span class="install-step-heading__number" aria-hidden="true">02</span><div><p class="install-step-heading__label">Step 02 / Install</p><h3>Start the setup</h3></div></div>
 
-## What this guide will cover
+Run it as your regular user. Do not use `sudo` with `install.sh`.
 
-1. System requirements and supported environments.
-2. A verified installation path.
-3. Optional themes and their compatibility.
-4. Recovery and rollback notes.
+{% set command_id = "install-run" %}{% set command_label = "2 / Install" %}{% set command_text = "bash install.sh" %}{% include "components/command-block.njk" %}
 
-> Commands will only be added here after they are verified in the Pegasus repository.
+Review the plan shown by Pegasus and confirm when you are ready.
+
+<div class="install-step-heading"><span class="install-step-heading__number" aria-hidden="true">03</span><div><p class="install-step-heading__label">Step 03 / Recovery</p><h3>If `gum` is missing</h3></div></div>
+
+Install it and run Pegasus again:
+
+{% set command_id = "install-gum" %}{% set command_label = "If needed" %}{% set command_text = "sudo dnf install -y gum\nbash install.sh" %}{% include "components/command-block.njk" %}
+
+## Useful options
+
+Use the default choices without prompts:
+
+{% set command_id = "install-yes" %}{% set command_label = "No prompts" %}{% set command_text = "bash install.sh --yes" %}{% include "components/command-block.njk" %}
+
+Review or resume an installation:
+
+{% set command_id = "install-options" %}{% set command_label = "Review / Resume" %}{% set command_text = "pegasus install --review\npegasus install --resume" %}{% include "components/command-block.njk" %}
+
+## After installation
+
+Open the Pegasus Control Center:
+
+{% set command_id = "control-center" %}{% set command_label = "Control Center" %}{% set command_text = "pegasus" %}{% include "components/command-block.njk" %}
+
+You can also find **Pegasus Control Center** in GNOME Applications.
+
+### Themes
+
+{% set command_id = "theme-commands" %}{% set command_label = "Themes" %}{% set command_text = "pegasus theme\npegasus theme list\npegasus theme apply Nord" %}{% include "components/command-block.njk" %}
+
+### Check your setup
+
+{% set command_id = "doctor" %}{% set command_label = "Diagnostics" %}{% set command_text = "pegasus doctor" %}{% include "components/command-block.njk" %}
+
+### Update or uninstall
+
+{% set command_id = "maintenance" %}{% set command_label = "Maintenance" %}{% set command_text = "pegasus update\npegasus uninstall" %}{% include "components/command-block.njk" %}
