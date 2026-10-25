@@ -17,4 +17,6 @@ imageCaption: Official Kanagawa wallpaper from the Pegasus theme source.
 palette: ["#1f1f28", "#dcd7ba", "#090618", "#c34043", "#76946a", "#c0a36e", "#7e9cd8"]
 surfaces: [GNOME, Alacritty, btop, Neovim, VS Code, Zellij]
 permalink: /themes/kanagawa/
+locale: en
+languageUrl: /pt-br/themes/kanagawa/
 ---

@@ -17,4 +17,6 @@ imageCaption: Official Ristretto wallpaper from the Pegasus theme source.
 palette: ["#2c2525", "#fd6883", "#adda78", "#f9cc6c", "#f38d70", "#a8a9eb", "#85dacc"]
 surfaces: [GNOME, Alacritty, btop, Neovim, VS Code, Zellij]
 permalink: /themes/ristretto/
+locale: en
+languageUrl: /pt-br/themes/ristretto/
 ---

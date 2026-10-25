@@ -1,5 +1,6 @@
+{% set currentLocale = locale or "en" %}{% set copy = i18n[currentLocale] %}
 <!doctype html>
-<html lang="en">
+<html lang="{{ copy.lang }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +14,7 @@
     <script type="module" src="{{ '/assets/scripts/theme-actions.js' | url }}" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
+    <a class="skip-link" href="#main-content">{{ copy.skipLink }}</a>
     <div class="site-shell{% if theme %} site-shell--{{ theme }}{% endif %}">{% include "components/header.njk" %}<main id="main-content">{{ content | safe }}</main>{% include "components/footer.njk" %}</div>
   </body>
 </html>

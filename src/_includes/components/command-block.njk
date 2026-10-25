@@ -1,7 +1,7 @@
 <div class="command-block">
   <div class="command-block__header">
     <span>{{ command_label or "Terminal" }}</span>
-    <button class="command-block__copy" type="button" data-copy-target="{{ command_id }}">Copy</button>
+    <button class="command-block__copy" type="button" data-copy-target="{{ command_id }}">{{ copy.copy }}</button>
   </div>
   <pre id="{{ command_id }}"><code>{{ command_text }}</code></pre>
 </div>

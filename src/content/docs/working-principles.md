@@ -5,6 +5,8 @@ summary: The ideas behind a setup that remains personal, legible, and maintainab
 tags: docs
 order: 1
 permalink: /docs/working-principles/
+locale: en
+languageUrl: /pt-br/docs/principios-de-trabalho/
 ---
 ## Make changes you can explain
 

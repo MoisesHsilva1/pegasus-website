@@ -17,4 +17,6 @@ imageCaption: Official Gruvbox wallpaper from the Pegasus theme source.
 palette: ["#282828", "#d4be98", "#3c3836", "#ea6962", "#a9b665", "#d8a657", "#7daea3"]
 surfaces: [GNOME, Alacritty, btop, Neovim, VS Code, Zellij]
 permalink: /themes/gruvbox/
+locale: en
+languageUrl: /pt-br/themes/gruvbox/
 ---

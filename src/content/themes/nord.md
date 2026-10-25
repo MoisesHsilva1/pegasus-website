@@ -17,4 +17,6 @@ imageCaption: Official Nord wallpaper from the Pegasus theme source.
 palette: ["#2e3440", "#d8dee9", "#a5abb6", "#4c566a", "#3b4252", "#bf616a", "#a3be8c"]
 surfaces: [GNOME, Alacritty, btop, Neovim, VS Code, Zellij]
 permalink: /themes/nord/
+locale: en
+languageUrl: /pt-br/themes/nord/
 ---
