@@ -17,4 +17,6 @@ imageCaption: Official Osaka Jade wallpaper from the Pegasus theme source.
 palette: ["#111c18", "#c1c497", "#8087a2", "#000000", "#d7c995", "#23372b", "#ff5345"]
 surfaces: [GNOME, Alacritty, btop, Neovim, VS Code, Zellij]
 permalink: /themes/osaka-jade/
+locale: en
+languageUrl: /pt-br/themes/osaka-jade/
 ---

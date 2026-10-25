@@ -17,4 +17,6 @@ imageCaption: Official Matte Black wallpaper from the Pegasus theme source.
 palette: ["#101010", "#c8c8c8", "#808080", "#eaeaea", "#303030", "#1a1a1a", "#888888"]
 surfaces: [GNOME, Alacritty, btop, Neovim, VS Code, Zellij]
 permalink: /themes/matte-black/
+locale: en
+languageUrl: /pt-br/themes/matte-black/
 ---

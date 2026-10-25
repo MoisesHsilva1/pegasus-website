@@ -17,4 +17,6 @@ imageCaption: Official Rose Pine wallpaper from the Pegasus theme source.
 palette: ["#575279", "#faf4ed", "#797593", "#cecacd", "#f2e9e1", "#d7827e", "#fffaf3"]
 surfaces: [GNOME, Alacritty, btop, Neovim, VS Code, Zellij]
 permalink: /themes/rose-pine/
+locale: en
+languageUrl: /pt-br/themes/rose-pine/
 ---

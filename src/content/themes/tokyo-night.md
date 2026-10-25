@@ -17,4 +17,6 @@ imageCaption: Official Tokyo Night wallpaper from the Pegasus theme source.
 palette: ["#1a1b26", "#a9b1d6", "#32344a", "#f7768e", "#9ece6a", "#e0af68", "#7aa2f7"]
 surfaces: [GNOME, Alacritty, btop, Neovim, VS Code, Zellij]
 permalink: /themes/tokyo-night/
+locale: en
+languageUrl: /pt-br/themes/tokyo-night/
 ---

@@ -1,4 +1,5 @@
 <footer class="site-footer">
-  <div><span class="site-footer__title">Pegasus</span><span> — a personal Linux environment for people who like to know their tools.</span></div>
-  <div class="site-footer__links"><a href="{{ '/docs/' | url }}">Documentation</a><a href="{{ '/themes/' | url }}">Themes</a>{% if site.githubUrl %}<a href="{{ site.githubUrl }}">Repository ↗</a>{% else %}<span>Repository link pending</span>{% endif %}</div>
+  {% if locale == "pt-br" %}{% set docsUrl = "/pt-br/docs/" %}{% set themesUrl = "/pt-br/themes/" %}{% else %}{% set docsUrl = "/docs/" %}{% set themesUrl = "/themes/" %}{% endif %}
+  <div><span class="site-footer__title">Pegasus</span></div>
+  <div class="site-footer__links"><a href="{{ docsUrl | url }}">{{ copy.docs }}</a><a href="{{ themesUrl | url }}">{{ copy.themes }}</a>{% if site.githubUrl %}<a href="{{ site.githubUrl }}">{{ copy.repository }} ↗</a>{% else %}<span>Repository link pending</span>{% endif %}</div>
 </footer>

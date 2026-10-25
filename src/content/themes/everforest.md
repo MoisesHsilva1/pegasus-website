@@ -17,4 +17,6 @@ imageCaption: Official Everforest wallpaper from the Pegasus theme source.
 palette: ["#2d353b", "#d3c6aa", "#475258", "#e67e80", "#a7c080", "#dbbc7f", "#7fbbb3"]
 surfaces: [GNOME, Alacritty, btop, Neovim, VS Code, Zellij]
 permalink: /themes/everforest/
+locale: en
+languageUrl: /pt-br/themes/everforest/
 ---

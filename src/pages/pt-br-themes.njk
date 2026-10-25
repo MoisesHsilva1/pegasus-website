@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+title: Temas
+description: Um catálogo pequeno e crescente de temas para ambientes Pegasus.
+theme: dark
+locale: pt-br
+languageUrl: /themes/
+permalink: /pt-br/themes/
+---
+<section class="themes-editorial">
+  <header class="themes-editorial__header">
+    <div><h1>Escolha um clima.<br><em>Mantenha o controle.</em></h1></div>
+  </header>
+  <div class="themes-editorial__layout">
+    <div class="listing-grid">{% for theme in collections.themesPtBr %}{% set theme_item = theme %}{% include "components/theme-card.njk" %}{% endfor %}</div>
+  </div>
+</section>

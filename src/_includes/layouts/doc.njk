@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 <article class="reading-page">
-  <div class="reading-page__chrome"><span class="window-bar__dots" aria-hidden="true"><i></i><i></i></span><span>pegasus / documentation</span></div>
-  <div class="reading-page__content"><header class="reading-page__header"><p class="eyebrow">Documentation</p><h1>{{ title }}</h1>{% if summary %}<p class="lede">{{ summary }}</p>{% endif %}</header>
+  <div class="reading-page__chrome"><span class="window-bar__dots" aria-hidden="true"><i></i><i></i></span><span>{{ copy.documentationChrome }}</span></div>
+  <div class="reading-page__content"><header class="reading-page__header"><p class="eyebrow">{{ sectionLabel or copy.docs }}</p><h1>{{ title }}</h1>{% if summary %}<p class="lede">{{ summary }}</p>{% endif %}</header>
   <div class="reading-page__body prose">{{ content | safe }}</div></div>
 </article>

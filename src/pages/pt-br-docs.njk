@@ -1,0 +1,9 @@
+---
+layout: layouts/base.njk
+title: Documentação
+description: Notas claras para configurar e entender um ambiente Linux com Pegasus.
+locale: pt-br
+languageUrl: /docs/
+permalink: /pt-br/docs/
+---
+<section class="listing-page"><header class="listing-page__header"><p class="eyebrow">Documentação</p><h1>Entenda as partes que você altera.</h1><p class="lede">Notas curtas e práticas para configurar um ambiente Linux sem transformar cada escolha em um ritual.</p></header><div class="listing-grid">{% for doc in collections.docsPtBr %}<a class="listing-card" href="{{ doc.url | url }}"><span class="listing-card__meta">{{ loop.index }}</span><h2>{{ doc.data.title }}</h2><p>{{ doc.data.summary }}</p><span class="text-link">{{ copy.readNote }}</span></a>{% endfor %}</div></section>

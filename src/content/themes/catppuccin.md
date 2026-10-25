@@ -17,4 +17,6 @@ imageCaption: Official Catppuccin wallpaper from the Pegasus theme source.
 palette: ["#24273a", "#cad3f5", "#8087a2", "#f4dbd6", "#b7bdf8", "#a5adcb", "#a6da95"]
 surfaces: [GNOME, Alacritty, btop, Neovim, VS Code, Zellij]
 permalink: /themes/catppuccin/
+locale: en
+languageUrl: /pt-br/themes/catppuccin/
 ---
