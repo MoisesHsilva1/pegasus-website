@@ -1,5 +1,5 @@
-<a class="theme-card" href="{{ theme_item.url }}">
+<a class="theme-card" href="{{ theme_item.url | url }}">
   {% set window_label = theme_item.data.title | lower + " / palette" %}{% include "components/window-bar.njk" %}
-  <div class="theme-card__preview"><img src="{{ theme_item.data.image }}" alt="{{ theme_item.data.imageAlt }}" loading="lazy"><span class="theme-card__preview-label">{{ theme_item.data.accent | upper }} / 07 COLORS</span></div>
+  <div class="theme-card__preview"><img src="{{ theme_item.data.image | url }}" alt="{{ theme_item.data.imageAlt }}" loading="lazy"><span class="theme-card__preview-label">{{ theme_item.data.accent | upper }} / 07 COLORS</span></div>
   <div class="theme-card__body"><div class="theme-card__meta"><span class="listing-card__meta">{{ theme_item.data.sourceName }}</span><span>{{ theme_item.data.vscodeTheme }}</span></div><h2>{{ theme_item.data.title }}</h2><p>{{ theme_item.data.summary }}</p><div class="theme-palette" aria-label="Seven-color palette for {{ theme_item.data.title }}">{% for color in theme_item.data.palette %}<span class="theme-palette__swatch" style="--swatch: {{ color }}" title="{{ color }}"></span>{% endfor %}</div><span class="text-link">View theme →</span></div>
 </a>
